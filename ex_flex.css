@@ -1,0 +1,84 @@
+div {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(192, 47, 47);
+}
+
+.all {
+    width: 1000px;
+    height: auto;
+}
+
+.father {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    background-color: white;
+    color: white;
+}
+
+.father div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.child {
+    flex: 1;
+    margin: 1px;
+}
+
+.row-6a {
+    margin: 1px;
+    flex: 5;
+}
+
+.row-6b {
+    flex: 7;
+    margin: 1px;
+}
+
+.row-7a {
+    margin: 1px;
+    flex: 4;
+}
+
+.row-7b {
+    flex: 8;
+    margin: 1px;
+}
+
+.row-8a {
+    margin: 1px;
+    flex: 3;
+}
+
+.row-8b {
+    flex: 9;
+    margin: 1px;
+}
+
+.row-9a {
+    margin: 1px;
+    flex: 2;
+}
+
+.row-9b {
+    flex: 10;
+    margin: 1px;
+}
+
+.row-10a {
+    margin: 1px;
+    flex: 1;
+}
+
+.row-10b {
+    flex: 11;
+    margin: 1px;
+}
+
+.row-11 {
+    flex: 1;
+    margin: 1px;
+}
